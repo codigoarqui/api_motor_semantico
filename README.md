@@ -75,7 +75,7 @@ Desde la terminal, en la raíz del proyecto, crea y activa un entorno virtual de
 **Para Windows:**
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 venv\Scripts\activate
 ```
 
