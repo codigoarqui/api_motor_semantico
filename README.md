@@ -30,8 +30,8 @@ Para poder seguir este proyecto, necesitarás:
 Primero, clona este repositorio a tu máquina local usando `git`:
 
 ```bash
-git clone [[https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)](https://github.com/codigoarqui/api_motor_semantico)
-cd nombre-del-repo
+git clone git@github.com:codigoarqui/api_motor_semantico.git
+cd api_motor_semantico
 ```
 
 ### 2. Configurar Supabase
