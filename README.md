@@ -115,7 +115,7 @@ SUPABASE_KEY="eyJhbGciOiJIUzI..."
 Con toda la configuración lista, puedes ejecutar la API localmente usando `uvicorn`:
 
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 Una vez que el servidor esté corriendo, verás un mensaje en tu terminal indicando la dirección.
