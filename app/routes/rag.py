@@ -27,7 +27,7 @@ async def responder_con_rag(payload: BusquedaRequest):
     RESPUESTA:
     '''
 
-    model = genai.GenerativeModel('gemini-2.5-flash')
+    model = genai.GenerativeModel('gemini-2.5-pro')
     respuesta_generada = model.generate_content(prompt_template)
 
     return {"respuesta": respuesta_generada.text}
