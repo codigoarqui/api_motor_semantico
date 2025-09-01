@@ -9,4 +9,5 @@ class DocumentoRequest(BaseModel):
 
 class BusquedaRequest(BaseModel):
     consulta: str
+    session_id: str = ''
     top_k: int = 3

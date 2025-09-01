@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter
 from app.routes.busqueda import buscar_documentos
 import google.generativeai as genai
 from app.models.schemas import BusquedaRequest
