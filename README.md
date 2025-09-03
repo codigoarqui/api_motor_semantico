@@ -139,4 +139,14 @@ Desde esta página, puedes probar ambos _endpoints_ de la API:
 
 ---
 
+### 6. Configurar Supabase - Memoria Persistente
+
+```sql
+  CREATE TABLE public.historial_chat (
+    session_id TEXT PRIMARY KEY,
+    historial JSONB,
+    updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+```
+
 Si te ha sido útil, no olvides suscribirte a mi canal **Del Código a la Arquitectura** para más. ¡Nos vemos en la próxima! 🚀
